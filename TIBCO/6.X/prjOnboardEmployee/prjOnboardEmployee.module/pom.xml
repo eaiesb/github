@@ -32,10 +32,6 @@
       <layout>p2</layout>
     </repository>
   </repositories>
-  
-  <!-- Make OSGi happy -->
-  <version>0.2.0.v201505041341</version>
-  
   <build>
     <pluginManagement>
       <plugins>
