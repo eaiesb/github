@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	 xmlns="http://www.tibco.com/schemas/Employee/Schema.xsd"
+	 targetNamespace="http://www.tibco.com/schemas/Employee/Schema.xsd"
+	 elementFormDefault="qualified"
+	 attributeFormDefault="unqualified">
+	<xs:element name="EmpDetails">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="EMPNO"/>
+				<xs:element ref="FIRSTNAME"/>
+				<xs:element ref="LASTNAME"/>
+				<xs:element ref="EMAIL"/>
+				<xs:element ref="DESIGNATION"/>
+				<xs:element ref="PHONENUMBER"/>
+				<xs:element ref="HIREDATE"/>
+				<xs:element ref="JOBID"/>
+				<xs:element ref="SALARY"/>
+				<xs:element ref="MANAGER_ID"/>
+				<xs:element ref="BUSINESSUNIT"/>
+				<xs:element ref="DEPARTMENTID"/>
+				<xs:element ref="CITY"/>
+				<xs:element ref="STATE"/>
+				<xs:element ref="COUNTRY"/>
+				<xs:element ref="STATUS"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="EMPNO" type="xs:string"/>
+	<xs:element name="FIRSTNAME" type="xs:string"/>
+	<xs:element name="LASTNAME" type="xs:string"/>
+	<xs:element name="EMAIL" type="xs:string"/>
+	<xs:element name="DESIGNATION" type="xs:string"/>
+	<xs:element name="PHONENUMBER" type="xs:string"/>
+	<xs:element name="HIREDATE" type="xs:dateTime"/>
+	<xs:element name="JOBID" type="xs:string"/>
+	<xs:element name="SALARY" type="xs:decimal"/>
+	<xs:element name="MANAGER_ID" type="xs:string"/>
+	<xs:element name="BUSINESSUNIT" type="xs:string"/>
+	<xs:element name="DEPARTMENTID" type="xs:string"/>
+	<xs:element name="CITY" type="xs:string"/>
+	<xs:element name="STATE" type="xs:string"/>
+	<xs:element name="COUNTRY" type="xs:string"/>
+	<xs:element name="STATUS" type="xs:string"/>
+	<xs:element name="Employee">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="EmpDetails" minOccurs="0" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

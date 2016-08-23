@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.tibco.bw</groupId>
+  <artifactId>prjOnboardEmployee</artifactId>
+  <version>1.0.0-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <modules>
+    <module>../prjOnboardEmployee.module</module>
+  </modules>
+  <properties>
+    <tibco.home>C:\tibco\bw6</tibco.home>
+    <bw.version>6.2</bw.version>
+  </properties>
+  
+  <distributionManagement>
+    <repository>
+      <id>nexus</id>
+      <name>Nexus Release</name>
+      <url>http://10.0.0.237:8082/nexus/content/repositories/releases/</url>
+    </repository>
+    <snapshotRepository>
+      <id>nexus</id>
+      <name>Nexus Snapshot</name>
+      <url>http://10.0.0.237:8082/nexus/content/repositories/snapshots/</url>
+    </snapshotRepository>
+    <site>
+      <id>nexus</id>
+      <name>Nexus Name</name>
+      <url>dav:http://10.0.0.237:8082/nexus/content/sites/site/</url>
+    </site>
+  </distributionManagement>
+  
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>com.tibco.bw</groupId>
+        <artifactId>bw-archiver</artifactId>
+        <version>1.0.0</version>
+        <extensions>true</extensions>
+        <executions>
+          <execution>
+            <id>bw-packager</id>
+            <phase>package</phase>
+            <goals>
+              <goal>bw-packager</goal>
+            </goals>
+          </execution>
+          <execution>
+            <id>bw-installer</id>
+            <phase>install</phase>
+            <goals>
+              <goal>bw-installer</goal>
+            </goals>
+          </execution>
+        </executions>
+        <configuration>
+          <tibcohome>C:\tibco\bw6</tibcohome>
+          <bw.version>6.2</bw.version>
+          <deployToAdmin>true</deployToAdmin>
+          <redeployear>true</redeployear>
+          <domain>dev_tibco6_domain</domain>
+          <domainDesc></domainDesc>
+          <appspace>dev_appspace</appspace>
+          <appspaceDesc></appspaceDesc>
+          <appnode>dev_appnode</appnode>
+          <appnodeDesc></appnodeDesc>
+          <httpport>8030</httpport>
+          <agent></agent>
+          <profile>default.substvar</profile>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build> 
+</project>
