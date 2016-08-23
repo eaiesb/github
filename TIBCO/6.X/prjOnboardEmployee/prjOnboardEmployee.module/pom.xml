@@ -14,6 +14,19 @@
     <tycho-version>0.22.0</tycho-version>
   </properties>
   
+  <scm>
+    <connection>scm:git:https://github.com/eaiesb/github/tree/master/TIBCO/6.X/prjOnboardEmployee.git</connection>
+    <url>https://github.com/eaiesb/github/tree/master/TIBCO/6.X/prjOnboardEmployee.git</url>
+    <developerConnection>scm:git:https://github.com/eaiesb/github/tree/master/TIBCO/6.X/prjOnboardEmployee.git</developerConnection>
+    <tag>v1.5</tag>
+  </scm>
+  <developers>
+    <developer>
+     <name>Srikanth</name>
+     <email>srikanth.kota@eaiesb.com</email>
+    </developer>
+  </developers>
+  
   <distributionManagement>
     <repository>
       <id>nexus</id>
@@ -199,4 +212,23 @@
       </plugin>
     </plugins>
   </build>
+  
+  <distributionManagement>
+    <repository>
+      <id>nexus</id>
+      <name>Nexus Release</name>
+      <url>http://localhost:8081/nexus/content/repositories/releases/</url>
+    </repository>
+    <snapshotRepository>
+      <id>nexus</id>
+      <name>Nexus Snapshot</name>
+      <url>http://localhost:8081/nexus/content/repositories/snapshots/</url>
+    </snapshotRepository>
+    <!-- <site>
+      <id>nexus</id>
+      <name>Nexus Name</name>
+      <url>dav:http://10.0.0.237:8082/nexus/content/sites/site/</url>
+    </site> -->
+  </distributionManagement>
+  
  </project>
