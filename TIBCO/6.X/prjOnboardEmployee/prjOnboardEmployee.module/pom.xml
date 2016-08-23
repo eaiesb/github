@@ -15,9 +15,9 @@
   </properties>
   
   <scm>
-    <connection>scm:git:https://github.com/eaiesb/github/tree/master/TIBCO/6.X/prjOnboardEmployee.git</connection>
-    <url>https://github.com/eaiesb/github/tree/master/TIBCO/6.X/prjOnboardEmployee.git</url>
-    <developerConnection>scm:git:https://github.com/eaiesb/github/tree/master/TIBCO/6.X/prjOnboardEmployee.git</developerConnection>
+    <connection>scm:git:https://github.com/eaiesb/github/tree/master/TIBCO/6.X/prjOnboardEmployee/prjOnboardEmployee.git</connection>
+    <url>https://github.com/eaiesb/github/tree/master/TIBCO/6.X/prjOnboardEmployee/prjOnboardEmployee.git</url>
+    <developerConnection>scm:git:https://github.com/eaiesb/github/tree/master/TIBCO/6.X/prjOnboardEmployee/prjOnboardEmployee.git</developerConnection>
     <tag>v1.5</tag>
   </scm>
   <developers>
@@ -26,32 +26,13 @@
      <email>srikanth.kota@eaiesb.com</email>
     </developer>
   </developers>
-  
-  <distributionManagement>
-    <repository>
-      <id>nexus</id>
-      <name>Nexus Release</name>
-      <url>http://10.0.0.237:8082/nexus/content/repositories/releases/</url>
-    </repository>
-    <snapshotRepository>
-      <id>nexus</id>
-      <name>Nexus Snapshot</name>
-      <url>http://10.0.0.237:8082/nexus/content/repositories/snapshots/</url>
-    </snapshotRepository>
-    <site>
-      <id>nexus</id>
-      <name>Nexus Name</name>
-      <url>dav:http://10.0.0.237:8082/nexus/content/sites/site/</url>
-    </site>
-  </distributionManagement>
-  
-  <!-- <repositories>
+ <repositories>
     <repository>
       <id>main.bw.bundle</id>
       <url>file:///${main.p2.repo}</url>
       <layout>p2</layout>
     </repository>
-  </repositories> -->
+  </repositories>
   <build>
     <pluginManagement>
       <plugins>
