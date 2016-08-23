@@ -9,16 +9,6 @@ TIBCO-BW-ConfigProfile: META-INF/default.substvar
 TIBCO-BW-ModuleSharedVariables: META-INF/module.msv
 TIBCO-BW-JobSharedVariables: META-INF/module.jsv
 TIBCO-BW-ApplicationModule: META-INF/module.bwm
-Require-Bundle: org.eclipse.xtext.xbase;bundle-version="2.4.3",
- org.eclipse.xtext.generator;bundle-version="2.4.3",
- org.eclipse.emf.mwe2.launch;resolution:=optional,
- org.eclipse.xtext;bundle-version="2.4.3",
- org.eclipse.xtext.util;bundle-version="2.4.3",
- org.eclipse.emf.ecore, 
- org.eclipse.emf.common,
- org.antlr.runtime,
- org.eclipse.xtext.common.types;bundle-version="2.4.3",
- org.eclipse.xtext.xbase.lib;bundle-version="2.4.3"
 Require-Capability: com.tibco.bw.model; filter:="(name=bwext)",
  com.tibco.bw.palette; filter:="(name=bw.generalactivities)",
  com.tibco.bw.palette; filter:="(name=bw.file)",
