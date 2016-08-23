@@ -213,7 +213,7 @@
     </plugins>
   </build>
   
-  <distributionManagement>
+  <!--<distributionManagement>
     <repository>
       <id>nexus</id>
       <name>Nexus Release</name>
@@ -229,6 +229,6 @@
       <name>Nexus Name</name>
       <url>dav:http://10.0.0.237:8082/nexus/content/sites/site/</url>
     </site> -->
-  </distributionManagement>
+  </distributionManagement> -->
   
  </project>
