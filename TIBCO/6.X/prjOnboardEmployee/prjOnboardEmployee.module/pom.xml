@@ -11,7 +11,7 @@
     <tibco.home>C:\tibco\bw6</tibco.home>
     <main.p2.repo>${tibco.home}/bw/${bw.version}/maven/p2repo</main.p2.repo>
     <bw.version>6.2</bw.version>
-    <tycho-version>0.26.0</tycho-version>
+    <tycho-version>0.22.0</tycho-version>
   </properties>
   <scm>
     <connection>scm:git:https://github.com/eaiesb/github/tree/master/TIBCO/6.X/prjOnboardEmployee/prjOnboardEmployee.module.git</connection>
