@@ -15,9 +15,9 @@
   </properties>
   
   <scm>
-    <connection>scm:git:https://github.com/eaiesb/github/tree/master/TIBCO/6.X/prjOnboardEmployee.git</connection>
-    <url>https://github.com/eaiesb/github/tree/master/TIBCO/6.X/prjOnboardEmployee.git</url>
-    <developerConnection>scm:git:https://github.com/eaiesb/github/tree/master/TIBCO/6.X/prjOnboardEmployee.git</developerConnection>
+    <connection>scm:git:https://github.com/eaiesb/github/tree/master/TIBCO/6.X/prjOnboardEmployee/prjOnboardEmployee.git</connection>
+    <url>https://github.com/eaiesb/github/tree/master/TIBCO/6.X/prjOnboardEmployee/prjOnboardEmployee.git</url>
+    <developerConnection>scm:git:https://github.com/eaiesb/github/tree/master/TIBCO/6.X/prjOnboardEmployee/prjOnboardEmployee.git</developerConnection>
     <tag>v1.5</tag>
   </scm>
   <developers>
