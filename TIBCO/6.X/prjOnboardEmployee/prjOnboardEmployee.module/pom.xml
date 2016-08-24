@@ -183,10 +183,15 @@
   
   <distributionManagement>
     <repository>
-        <id>central</id>
-        <name>tibco6host-releases</name>
-        <url>http://tibco6host:8081/artifactory/libs-release-local</url>
+      <id>nexus</id>
+      <name>Nexus Release</name>
+      <url>http://localhost:8082/nexus/content/repositories/releases/</url>
     </repository>
+    <snapshotRepository>
+      <id>nexus</id>
+      <name>Nexus Snapshot</name>
+      <url>http://localhost:8082/nexus/content/repositories/snapshots/</url>
+    </snapshotRepository>
   </distributionManagement>
   
 </project>
