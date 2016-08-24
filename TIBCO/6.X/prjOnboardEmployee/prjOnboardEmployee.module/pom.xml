@@ -182,23 +182,11 @@
   </build>
   
   <distributionManagement>
-    <!-- use the following if you're not using a snapshot version. -->
-    
-    <!--<repository>
+    <repository>
         <id>central</id>
         <name>tibco6host-releases</name>
-        <url>http://tibco6host:8081/artifactory/ext-release-local</url>
+        <url>http://tibco6host:8081/artifactory/libs-release-local</url>
     </repository>
-    <snapshotRepository>
-        <id>snapshots</id>
-        <name>tibco6host-snapshots</name>
-        <url>http://tibco6host:8081/artifactory/libs-snapshot-local</url>
-    </snapshotRepository>-->
-    <snapshotRepository>
-        <id>releases</id>
-        <name>tibco6host-releases</name>
-        <url>http://tibco6host:8081/artifactory/ext-release-local</url>
-    </snapshotRepository>
   </distributionManagement>
   
 </project>
