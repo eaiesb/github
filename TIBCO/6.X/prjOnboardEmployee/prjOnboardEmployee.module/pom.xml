@@ -194,15 +194,10 @@
         <name>tibco6host-snapshots</name>
         <url>http://tibco6host:8081/artifactory/libs-snapshot-local</url>
     </snapshotRepository>-->
-    <repository>
-      <id>local</id>
-      <name>local repository</name>
-      <url>file:///home/mark/.m2/repository</url>
-    </repository>
     <snapshotRepository>
-      <id>localSnapshot</id>
-      <name>local snapshot repository</name>
-      <url>file:///home/mark/.m2/repository</url>
+        <id>snapshots</id>
+        <name>tibco6host-snapshots</name>
+        <url>http://localhost:8081/artifactory/libs-snapshot-local</url>
     </snapshotRepository>
   </distributionManagement>
   
