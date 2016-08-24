@@ -13,7 +13,19 @@
     <bw.version>6.2</bw.version>
     <tycho-version>0.22.0</tycho-version>
   </properties>
-  <repositories>
+  <scm>
+    <connection>scm:git:https://github.com/eaiesb/github/tree/master/TIBCO/6.X/prjOnboardEmployee/prjOnboardEmployee.module.git</connection>
+    <url>https://github.com/eaiesb/github/tree/master/TIBCO/6.X/prjOnboardEmployee/prjOnboardEmployee.module.git</url>
+    <developerConnection>scm:git:https://github.com/eaiesb/github/tree/master/TIBCO/6.X/prjOnboardEmployee/prjOnboardEmployee.module.git</developerConnection>
+    <tag>v1.5</tag>
+  </scm>
+  <developers>
+    <developer>
+     <name>Srikanth</name>
+     <email>srikanth.kota@eaiesb.com</email>
+    </developer>
+  </developers>
+ <repositories>
     <repository>
       <id>main.bw.bundle</id>
       <url>file:///${main.p2.repo}</url>
@@ -57,7 +69,7 @@
                   <action>
                     <ignore />
                   </action>
-                </pluginExecution>
+                </pluginExecution>          
               </pluginExecutions>
             </lifecycleMappingMetadata>
           </configuration>
@@ -149,7 +161,7 @@
               <os>win32</os>
               <ws>win32</ws>
               <arch>x86</arch>
-            </environment>
+            </environment>      
             <environment>
               <os>linux</os>
               <ws>gtk</ws>
@@ -194,4 +206,4 @@
     </snapshotRepository>
   </distributionManagement>
   
-</project>
+ </project>
