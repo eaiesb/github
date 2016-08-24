@@ -180,4 +180,30 @@
       </plugin>
     </plugins>
   </build>
+  
+  <distributionManagement>
+    <!-- use the following if you're not using a snapshot version. -->
+    
+    <repository>
+        <id>central</id>
+        <name>tibco6host-releases</name>
+        <url>http://tibco6host:8081/artifactory/ext-release-local</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>tibco6host-snapshots</name>
+        <url>http://tibco6host:8081/artifactory/libs-snapshot-local</url>
+    </snapshotRepository>
+    <!-- <repository>
+      <id>local</id>
+      <name>local repository</name>
+      <url>file:///home/mark/.m2/repository</url>
+    </repository>
+    <snapshotRepository>
+      <id>localSnapshot</id>
+      <name>local snapshot repository</name>
+      <url>file:///home/mark/.m2/repository</url>
+    </snapshotRepository> -->
+  </distributionManagement>
+  
 </project>
