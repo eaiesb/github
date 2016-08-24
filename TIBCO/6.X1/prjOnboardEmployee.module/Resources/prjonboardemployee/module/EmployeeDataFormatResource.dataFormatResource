@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jndi:namedResource xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Schema.xsd="http://www.tibco.com/schemas/Employee/Schema.xsd" xmlns:dataformat="http://ns.tibco.com/bw/palette/dataformat" xmlns:jndi="http://xsd.tns.tibco.com/amf/models/sharedresource/jndi" xmi:id="_ERuIkREDEeairf6DvxZjiw" name="prjonboardemployee.module.EmployeeDataFormatResource" type="dataformat:DataFormat">
+  <imports xmi:id="_XIXecBEDEeairf6DvxZjiw" importType="http://www.w3.org/2001/XMLSchema" namespace="http://www.tibco.com/schemas/Employee/Schema.xsd"/>
+  <jndi:configuration xsi:type="dataformat:DataFormat" xmi:id="_ERuIkhEDEeairf6DvxZjiw" formatType="Delimiter separated" colSeparator="," colSeparatorParseRule="Treat all characters as entered as a single column separator string" lineSeparator="Carriage Return/Line Feed (windows)" fillCharacter="Space" schemaElementQName="Schema.xsd:EmpDetails" fieldOffsetsStr="EMPNO(0,0)&#xA;FIRSTNAME(0,0)&#xA;LASTNAME(0,0)&#xA;EMAIL(0,0)&#xA;DESIGNATION(0,0)&#xA;PHONENUMBER(0,0)&#xA;HIREDATE(0,0)&#xA;JOBID(0,0)&#xA;SALARY(0,0)&#xA;MANAGER_ID(0,0)&#xA;BUSINESSUNIT(0,0)&#xA;DEPARTMENTID(0,0)&#xA;CITY(0,0)&#xA;STATE(0,0)&#xA;COUNTRY(0,0)&#xA;STATUS(0,0)">
+    <fieldOffsets xmi:id="_Fnmx4BENEeairf6DvxZjiw" name="EMPNO"/>
+    <fieldOffsets xmi:id="_Fnmx4RENEeairf6DvxZjiw" name="FIRSTNAME"/>
+    <fieldOffsets xmi:id="_Fnmx4hENEeairf6DvxZjiw" name="LASTNAME"/>
+    <fieldOffsets xmi:id="_Fnmx4xENEeairf6DvxZjiw" name="EMAIL"/>
+    <fieldOffsets xmi:id="_Fnmx5BENEeairf6DvxZjiw" name="DESIGNATION"/>
+    <fieldOffsets xmi:id="_Fnmx5RENEeairf6DvxZjiw" name="PHONENUMBER"/>
+    <fieldOffsets xmi:id="_Fnmx5hENEeairf6DvxZjiw" name="HIREDATE"/>
+    <fieldOffsets xmi:id="_Fnmx5xENEeairf6DvxZjiw" name="JOBID"/>
+    <fieldOffsets xmi:id="_Fnmx6BENEeairf6DvxZjiw" name="SALARY"/>
+    <fieldOffsets xmi:id="_Fnmx6RENEeairf6DvxZjiw" name="MANAGER_ID"/>
+    <fieldOffsets xmi:id="_Fnmx6hENEeairf6DvxZjiw" name="BUSINESSUNIT"/>
+    <fieldOffsets xmi:id="_Fnmx6xENEeairf6DvxZjiw" name="DEPARTMENTID"/>
+    <fieldOffsets xmi:id="_Fnmx7BENEeairf6DvxZjiw" name="CITY"/>
+    <fieldOffsets xmi:id="_Fnmx7RENEeairf6DvxZjiw" name="STATE"/>
+    <fieldOffsets xmi:id="_Fnmx7hENEeairf6DvxZjiw" name="COUNTRY"/>
+    <fieldOffsets xmi:id="_Fnmx7xENEeairf6DvxZjiw" name="STATUS"/>
+  </jndi:configuration>
+</jndi:namedResource>
