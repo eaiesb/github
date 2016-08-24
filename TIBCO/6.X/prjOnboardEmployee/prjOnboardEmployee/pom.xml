@@ -13,6 +13,18 @@
     <tibco.home>C:\tibco\bw6</tibco.home>
     <bw.version>6.2</bw.version>
   </properties>
+  <scm>
+    <connection>scm:git:https://github.com/eaiesb/github/tree/master/TIBCO/6.X/prjOnboardEmployee/prjOnboardEmployee.git</connection>
+    <url>https://github.com/eaiesb/github/tree/master/TIBCO/6.X/prjOnboardEmployee/prjOnboardEmployee.git</url>
+    <developerConnection>scm:git:https://github.com/eaiesb/github/tree/master/TIBCO/6.X/prjOnboardEmployee/prjOnboardEmployee.git</developerConnection>
+    <tag>v1.5</tag>
+  </scm>
+  <developers>
+    <developer>
+     <name>Srikanth</name>
+     <email>srikanth.kota@eaiesb.com</email>
+    </developer>
+  </developers>
   <build>
     <plugins>
       <plugin>
@@ -54,4 +66,18 @@
       </plugin>
     </plugins>
   </build>
+  
+  <distributionManagement>
+    <repository>
+      <id>nexus</id>
+      <name>Nexus Release</name>
+      <url>http://localhost:8082/nexus/content/repositories/releases/</url>
+    </repository>
+    <snapshotRepository>
+      <id>nexus</id>
+      <name>Nexus Snapshot</name>
+      <url>http://localhost:8082/nexus/content/repositories/snapshots/</url>
+    </snapshotRepository>
+  </distributionManagement>
+  
 </project>
